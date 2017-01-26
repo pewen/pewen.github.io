@@ -566,6 +566,7 @@ footer strong {
     padding: 0;
     list-style: none;
     margin: 15px 0;
+    text-align: right;
 }
 
 .social-links li {
