@@ -1,0 +1,597 @@
+/* Personal CSS */
+
+/* Authors: @fnbellomo
+ */
+
+/****************************************
+ * Base structure
+ ****************************************/
+body {
+    font-family: Helvetica, Arial;
+    position: relative;
+}
+.site-name {
+    font-family: 'Raleway', sans-serif;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-size: 14px;
+    line-height: 1.50;
+    color: #333333;
+    text-align: center;
+}
+ol, ul {
+    list-style: outside none none;
+}
+.list-icons {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    font-size: 18px;
+}
+.list-icons li {
+    padding: 0 0 15px 0;
+}
+blockquote {
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.title {
+    margin-top: 0;
+}
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.header-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important; 
+    width: 1px !important; 
+    overflow: hidden;
+}
+/****************************************
+ * NavBar
+ ****************************************/
+.navbar-inverse {
+    background-color: #000;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+
+.navbar-custom {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    font-weight: bold;
+}
+
+
+/****************************************
+ * Box
+ ***************************************/
+.box-def {
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 3px 4px 15px -6px #000;
+    padding: 20px 25px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.box-title {
+    color: #1ABC9C;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.box-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fc0053;
+    width: 60px;
+    height: 5px;
+}
+
+.box-def p {
+    color: #87818C;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+    padding: 0px 15px;
+    text-align: justify;
+}
+
+.box-list {
+    text-align: left;
+}
+
+.box-list ul {
+    padding: 0px;
+    font-size: 16px;
+}
+
+.box-list ul li i {
+    color: #1ABC9C;
+}
+
+.box-list ul li p {
+    padding: 0px;
+    text-align: right;
+    margin: 0px;
+    display: inline;
+}
+
+.box-img {
+    margin: 0 auto;
+}
+/****************************************
+ * Banner
+ ****************************************/
+#banner {
+    background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../imgs/banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+}
+
+/* Tablets */ 
+@media only screen and (max-width : 768px) {
+    #banner {
+	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../imgs/banner_sm.jpg") no-repeat center center fixed;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #banner {
+	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../imgs/banner_xs.jpg") no-repeat center center fixed;
+    }
+}
+
+#banner > div {
+    padding-top: 15%;
+    text-align: left;
+    font-family: "Ubuntu",sans-serif;
+}
+
+#banner .banner-title {
+    font-size: 4em;
+    font-weight: 700;
+    padding-top: 10%;
+    padding-bottom: 15px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+#banner .banner-subtitle {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 992px) {
+    #banner .banner-title {
+	padding-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #banner .banner-title {
+	padding-top: 45%;
+    }
+}
+/****************************************
+ * Section titles
+ ***************************************/
+.section-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    color: #1ABC9C;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fc0053;
+    width: 100px;
+    height: 5px;
+}
+
+/****************************************
+ * We Do
+ ***************************************/
+#weDo {
+
+}
+
+/****************************************
+ * Filters Butonns
+ ***************************************/
+.filter {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #141d22;
+    text-transform: none;
+    border: 2px solid #141d22;
+}
+
+#portfolio .active{
+    background-color: #23323a;
+    color: #fff;
+}
+
+/****************************************
+ * Portfolio
+ ***************************************/
+#portfolio {
+    background-color: rgb(245, 245, 245);
+}
+
+.portfolio-item {
+    /* Transition effect */
+    transform: scale(0);
+    transition: all 1s ease;
+    padding-bottom: 30px;
+}
+
+.portfolio-item a {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    cursor: pointer;
+    width: 96%;
+}
+
+.portfolio-item a img {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.portfolio-item a .caption-bg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+    -webkit-box-shadow: inset 0 0 0 6px #141d22, inset 0 0 0 0 #23323a;
+    -moz-box-shadow: inset 0 0 0 6px #141d22, inset 0 0 0 0 #23323a;
+    box-shadow: inset 0 0 0 6px #141d22, inset 0 0 0 0 #23323a;
+}
+
+.portfolio-item a:hover .caption-bg {
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.portfolio-item a .caption-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: inset 0 0 0 0 #23323a;
+    -moz-box-shadow: inset 0 0 0 0 #23323a;
+    box-shadow: inset 0 0 0 0 #23323a;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.portfolio-item a:hover .caption-bg::before {
+    content: '';
+    -webkit-box-shadow: inset 0 0 0 160px #23323a;
+    -moz-box-shadow: inset 0 0 0 160px #23323a;
+    box-shadow: inset 0 0 0 160px #23323a;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+}
+
+.portfolio-item a .portfolio-item-title {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.portfolio-item a:hover .portfolio-item-title {
+    opacity: 1;
+    top: 15%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+}
+
+.portfolio-item a .portfolio-item-description {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+}
+
+.portfolio-item a:hover .portfolio-item-description {
+    opacity: 1;
+    top: 48%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.6s;
+    -webkit-transition-delay: 0.6s;
+}
+
+
+/****************************************
+ * Full Description
+ ***************************************/
+.full-description {
+    height: 100%; /* 100% Full-height */
+    width: 0;
+    position: fixed;
+    z-index: 1040;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+    color: #9d9d9d;
+    font-size: 18px;
+}
+
+.full-description .closebtn {
+    position: absolute;
+    top: 80px;
+    right: 25px;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 36px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+.full-description .closebtn:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.description-head h3 {
+    color: #1ABC9C;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.description-head h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fc0053;
+    width: 100px;
+    height: 5px;
+}
+
+.descriptions-tags {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.descriptions-tags i {
+    color: #1ABC9C;
+}
+
+.description-long {
+    text-align: justify;
+}
+
+.description-long h4 {
+    color: rgb(26, 188, 156);
+    font-size: 25px;
+}
+
+/****************************************
+ * Counters
+ ***************************************/
+#counters {
+    background-color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(238, 238, 238);
+    border-top: 1px solid rgb(238, 238, 238);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.counter-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.counter-box span {
+    padding-bottom: 5px;
+    color: rgb(26, 188, 156);
+    border-bottom: 2px solid rgb(252, 0, 83);
+    font-weight: bold;
+}
+
+/****************************************
+ * community
+ ***************************************/
+#community {
+    background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../imgs/comunidad.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    color: #ffffff;
+}
+/****************************************
+ * Footer
+ ***************************************/
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+}
+
+footer strong {
+    color: #e62b1e;
+}
+
+.footer-title {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.footer-title h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-title p {
+    margin-bottom: 0px;
+}
+
+.social-links {
+    padding: 0;
+    list-style: none;
+    margin: 15px 0;
+}
+
+.social-links li {
+    margin: 10px 25px 10px 0;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.social-links li a {
+    color: #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-links li.twitter a:hover {
+    color: #55acee;
+}
+
+.social-links li.github a:hover {
+    color: #4078c0;
+}
+
+.social-links li.email a:hover {
+    color: #b31217;
+}
+
+
+.footer-firm {
+    text-align: center;
+}
+

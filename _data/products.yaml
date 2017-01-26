@@ -1,0 +1,91 @@
+- title: Evento TEDXRíoCuarto
+  id: tedx
+  img: imgs/products/tedx_small.jpeg
+  img_big: imgs/products/
+  date : Abril 2015
+  client : TEDxRíoCuarto
+  link: https://pewen.github.io/tedx.rc/
+  tags: Diseño Web
+  sort_description: Sitio web de la primera TEDXRíoCuarto
+  long_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem orci. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis.
+
+- title: Taller Python Científico
+  id: wpc
+  img: imgs/products/wpc_small.jpeg
+  date: Agosto 2016
+  client: CIMA
+  link: https://pewen.github.io/wpc/
+  link_material: https://pewen.github.io/wpc/clases/
+  tags: Diseño Web, cursos
+  sort_description: Taller y sitio web del curso de python científico.
+  long_description: <h4>Sitio web</h4> Se trabajo en una interfaz simple y liviana donde los asistentes al taller puedan encontrar el temario, el material necesario para el mismo, como descargarlo, instalarlo y donde inscribirse.</br><h4>Taller</h4>Desde el punto del curso, se ideo un programa que cubre desde la nociones básicas de programación en python, hasta algunas nociones básicas de programación orientada a objetos, optimizaciones con Numpy, manejo de datos con Pandas, ploteos con Matplotlib entre otros temas. El curso se dicto de forma intensiva durante una semana, con 7 horas diarias divididas entre teoría y práctica. Ademas, los últimos dos días fueron dedicados a trabajar en proyectos que fueron presentados por los distintos grupos.
+
+- title: Tantanakuy Encuentro Artístico Popular
+  id: tantanakuy
+  img: imgs/products/tanta_small.jpeg
+  date: Octubre 2016
+  client: Colectivo Independiente Tantanakuy
+  link: https://pewen.github.io/tantanakuy/
+  tags: Diseño Web
+  sort_description: Sitio web del encuentro de artístico Tantanakuy
+  long_description: Sitio web del encuentro de artístico Tantanakuy donde se encuentra toda la información necesaria sobre el mismo&#58; como llegar, que hay que llevar y que no, la grilla de artistas, los talleres y las actividades para los más chicos. Además, cada taller posee una explicación más detallada sobre el mismo especificando los materiales en el caso que sea necesario. También se habilito una sección de comentario y dudas.
+
+- title: Estudio teoría de juego
+  id: kuden
+  img: imgs/products/kuden_small.jpeg
+  date: Noviembre 2016
+  client: Facultad Ciencias Económicas - UNRC
+  link: https://pewen.github.io/kuden/
+  tags: Aplicación Web
+  sort_description: Juego on-line para estudiar la Teoría de Juego.
+  long_description: Aplicación web multiplataforma para el estudio de la Teoría de Juego de Nash y como se aplican sobre empresas recuperadas y cooperativas. Utilizando herramientas estándares, logramos cumplir todas las necesidades requeridas por el juego (incluyendo comunicación en tiempo real entre los jugadores). Además, todas las partidas son guardadas de forma anónima en nuestro servidor donde, al finalizar, son analizadas para poder clasificar a los jugadores y ayudar a validar la hipótesis científica estudiada.
+
+- title: Radios
+  id: radios
+  img: imgs/products/radios_small.jpeg
+  date: Diciembre 2016
+  client: Comunidad
+  link: https://pewen.github.io/radios/
+  tags: app web
+  sort_description: Simple aplicación web para concentrar diversas radios comunitarias de Argentina.
+  long_description: En Argentina existen actualmente una gran cantidad de radios comunitarias que cubren de los más diversos temas. Estos tipos de medios son necesarios para una cultura más abierta y otra forma de informarse. Esta aplicación web, las nuclea a varias (con la intención de que sean todas) para que los usuarios podamos elejir de una manera simple.
+
+- title: Horarios
+  id: horarios
+  img: imgs/products/horarios_small.jpeg
+  date: Enero 2017
+  client: comunidad
+  link: https://pewen.github.io/horarios/
+  tags: app web
+  sort_description: Forma interactiva y simple para consulta de horarios
+  long_description: Forma interactiva y simple para consulta de horarios. En este caso en particular, se pensó para que los alumnos de una facultad puedan averiguar el horario y lugar de consulta de una materia.
+
+- title: Mapeo de Cortaderos de Ladrillos
+  id: ladrillos
+  img: imgs/products/cortaderos_small.jpeg
+  date: Noviembre 2016
+  client: Periodismo de Datos
+  link: https://pewen.github.io/mapa_cortaderos
+  tags: app web, datos, diseño web
+  sort_description: Mapeo interactivo y análisis de los Cortaderos de Ladrillos de la provincia de Córdoba.
+  long_description: Mapeo interactivo y análisis de los Cortaderos de Ladrillos de la provincia de Córdoba. La principal función de esta aplicación es detectar las coordenadas de los cortaderos debido ha que en estos existe una gran cantidad de trabajo infantil. En la aplicación web, cualquier ciudadano puede, desde un smart phone o desde una pc, agregar las coordenadas de un nuevo cortadero o modificar los datos de uno existente. Ademas, se cruzaron esos datos con los datos del censo nacional para crear gráficos de las distribuciones de acceso a diferentes servicios básicos desde los cortaderos. Dichos gráficos son interactivos, permitiendole a cualquier persona, poder analizar los datos con mayor profundidas.
+
+- title: Transferencia de Energía en Nanoparticulas
+  id: ten
+  img: imgs/products/ten_small2.png
+  date:
+  client: Laboratorio de Microscopia Óptica Avanzada, UNRC
+  link:
+  tags: simulaciones
+  sort_description: Colección de algoritmos para simular los procesos de transferencia de energía
+  long_description: Colección de algoritmos para simular, usando el método de Monte Carlo, los procesos de Transferencia de Energía en Nanoparticulas (TEN) de polímeros conjugados. TEN esta diseñado para correr eficientemente en paralelo.<br> Las simulaciones son contrastadas con las mediciones experimentales realizadas en el Laboratorio de Microscopia Óptica Avanzada (LMOA) de la Universidad Nacional de Río Cuarto (UNRC). <br> Es desarrollado en por el LMOA, UNRC, Argentina. Es un proyecto open-source, distribuido gratuitamente bajo los términos de la licencia MIT.
+
+- title: Unsteady vortex lattice method (UVLM)
+  id: uvlm
+  img: imgs/products/uvml_small.jpeg
+  date:
+  client: Facultad de Ingeniería, UNRC
+  link:
+  tags: simulaciones
+  sort_description: Simulación físico-computacional de alas batientes
+  long_description:

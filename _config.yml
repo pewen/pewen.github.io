@@ -1,0 +1,37 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+encoding: utf-8
+title: Pewen | Portfolio
+author: Lucas E. Bellomo, Franco N. Bellomo
+description: > # this means to ignore newlines until "baseurl:"
+  Pewen es una cooperativa de trabajo orientada al desarrollo y fomento
+  del software libre. Nuestros trabajos se centran en: Diseño web, aplicaciones
+  webs, ciencia de datos, datos abiertos, gobiernos abiertos, métodos numéricos,
+  computación de alto desempeño, cursos y talleres. En este sitio, también
+  poseemos un portfolio con todos nuestros trabajos previos.
+
+keywords: > #
+  Cooperativa de trabajo, software libre, diseño web, aplicaciones
+  webs, ciencia de datos, datos abiertos, gobiernos abiertos, métodos numéricos,
+  computación de alto desempeño, cursos y talleres
+
+# Server
+baseurl: ""
+url: "http://pewen.github.io"
+
+# Time zone
+timezone: America/Argentina/Cordoba
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: [.git, .gitignore]
+
+# Site variables
+debug: false

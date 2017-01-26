@@ -1,0 +1,124 @@
+[
+    {
+        "img": "imgs/products/tedx_small.jpeg",
+        "date": "Abril 2015",
+        "title": "Evento TEDXR\u00edoCuarto",
+        "client": "TEDxR\u00edoCuarto",
+        "img_big": "imgs/products/",
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem orci. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis.",
+        "id": "tedx",
+        "sort_description": "Sitio web de la primera TEDXR\u00edoCuarto",
+        "tags": [
+            "dise\u00f1o web"
+        ],
+        "link": "http://tedxriocuarto.com.ar/"
+    },
+    {
+        "img": "imgs/products/wpc_small.jpeg",
+        "date": "Agosto 2016",
+        "title": "Taller Python Cient\u00edfico",
+        "client": "CIMA",
+        "long_description": "<h4>Sitio web</h4> Se trabajo en una interfaz simple y liviana donde los asistentes al taller puedan encontrar el temario, el material necesario para el mismo, como descargarlo, instalarlo y donde inscribirse.</br><h4>Taller</h4>Desde el punto del curso, se ideo un programa que cubre desde la nociones b\u00e1sicas de programaci\u00f3n en python, hasta algunas nociones b\u00e1sicas de programaci\u00f3n orientada a objetos, optimizaciones con Numpy, manejo de datos con Pandas, ploteos con Matplotlib entre otros temas. El curso se dicto de forma intensiva durante una semana, con 7 horas diarias divididas entre teor\u00eda y pr\u00e1ctica. Ademas, los \u00faltimos dos d\u00edas fueron dedicados a trabajar en proyectos que fueron presentados por los distintos grupos.",
+        "id": "wpc",
+        "link": "https://pewen.github.io/wpc/",
+        "tags": [
+            "dise\u00f1o web",
+            "cursos"
+        ],
+        "link_material": "https://pewen.github.io/wpc/clases/",
+        "sort_description": "Taller y sitio web del curso de python cient\u00edfico."
+    },
+    {
+        "img": "imgs/products/tanta_small.jpeg",
+        "date": "Octubre 2016",
+        "title": "Tantanakuy Encuentro Art\u00edstico Popular",
+        "client": "Colectivo Independiente Tantanakuy",
+        "long_description": "Sitio web del encuentro de art\u00edstico Tantanakuy donde se encuentra toda la informaci\u00f3n necesaria sobre el mismo&#58; como llegar, que hay que llevar y que no, la grilla de artistas, los talleres y las actividades para los m\u00e1s chicos. Adem\u00e1s, cada taller posee una explicaci\u00f3n m\u00e1s detallada sobre el mismo especificando los materiales en el caso que sea necesario. Tambi\u00e9n se habilito una secci\u00f3n de comentario y dudas.",
+        "id": "tantanakuy",
+        "link": "https://pewen.github.io/tantanakuy/",
+        "tags": [
+            "dise\u00f1o web"
+        ],
+        "sort_description": "Sitio web del encuentro de art\u00edstico Tantanakuy"
+    },
+    {
+        "img": "imgs/products/kuden_small.jpeg",
+        "date": "Noviembre 2016",
+        "title": "Estudio teor\u00eda de juego",
+        "client": "Facultad Ciencias Econ\u00f3micas - UNRC",
+        "long_description": "Aplicaci\u00f3n web multiplataforma para el estudio de la Teor\u00eda de Juego de Nash y como se aplican sobre empresas recuperadas y cooperativas. Utilizando herramientas est\u00e1ndares, logramos cumplir todas las necesidades requeridas por el juego (incluyendo comunicaci\u00f3n en tiempo real entre los jugadores). Adem\u00e1s, todas las partidas son guardadas de forma an\u00f3nima en nuestro servidor donde, al finalizar, son analizadas para poder clasificar a los jugadores y ayudar a validar la hip\u00f3tesis cient\u00edfica estudiada.",
+        "id": "kuden",
+        "link": "https://pewen.github.io/kuden/",
+        "tags": [
+            "aplicaci\u00f3n web"
+        ],
+        "sort_description": "Juego on-line para estudiar la Teor\u00eda de Juego."
+    },
+    {
+        "img": "imgs/products/radios_small.jpeg",
+        "date": "Diciembre 2016",
+        "title": "Radios",
+        "client": "Comunidad",
+        "long_description": "En Argentina existen actualmente una gran cantidad de radios comunitarias que cubren de los m\u00e1s diversos temas. Estos tipos de medios son necesarios para una cultura m\u00e1s abierta y otra forma de informarse. Esta aplicaci\u00f3n web, las nuclea a varias (con la intenci\u00f3n de que sean todas) para que los usuarios podamos elejir de una manera simple.",
+        "id": "radios",
+        "link": "https://pewen.github.io/radios/",
+        "tags": [
+            "app web"
+        ],
+        "sort_description": "Simple aplicaci\u00f3n web para concentrar diversas radios comunitarias de Argentina."
+    },
+    {
+        "img": "imgs/products/horarios_small.jpeg",
+        "date": "Enero 2017",
+        "title": "Horarios",
+        "client": "comunidad",
+        "long_description": "Forma interactiva y simple para consulta de horarios. En este caso en particular, se pens\u00f3 para que los alumnos de una facultad puedan averiguar el horario y lugar de consulta de una materia.",
+        "id": "horarios",
+        "link": "https://pewen.github.io/horarios/",
+        "tags": [
+            "app web"
+        ],
+        "sort_description": "Forma interactiva y simple para consulta de horarios"
+    },
+    {
+        "img": "imgs/products/cortaderos_small.jpeg",
+        "date": "Noviembre 2016",
+        "title": "Mapeo de Cortaderos de Ladrillos",
+        "client": "Periodismo de Datos",
+        "long_description": "Mapeo interactivo y an\u00e1lisis de los Cortaderos de Ladrillos de la provincia de C\u00f3rdoba. La principal funci\u00f3n de esta aplicaci\u00f3n es detectar las coordenadas de los cortaderos debido ha que en estos existe una gran cantidad de trabajo infantil. En la aplicaci\u00f3n web, cualquier ciudadano puede, desde un smart phone o desde una pc, agregar las coordenadas de un nuevo cortadero o modificar los datos de uno existente. Ademas, se cruzaron esos datos con los datos del censo nacional para crear gr\u00e1ficos de las distribuciones de acceso a diferentes servicios b\u00e1sicos desde los cortaderos. Dichos gr\u00e1ficos son interactivos, permitiendole a cualquier persona, poder analizar los datos con mayor profundidas.",
+        "id": "ladrillos",
+        "link": "https://pewen.github.io/mapa_cortaderos",
+        "tags": [
+            "app web",
+            "datos",
+            "dise\u00f1o web"
+        ],
+        "sort_description": "Mapeo interactivo y an\u00e1lisis de los Cortaderos de Ladrillos de la provincia de C\u00f3rdoba."
+    },
+    {
+        "img": "imgs/products/ten_small2.png",
+        "date": null,
+        "title": "Transferencia de Energ\u00eda en Nanoparticulas",
+        "client": "Laboratorio de Microscopia \u00d3ptica Avanzada, UNRC",
+        "long_description": "Colecci\u00f3n de algoritmos para simular, usando el m\u00e9todo de Monte Carlo, los procesos de Transferencia de Energ\u00eda en Nanoparticulas (TEN) de pol\u00edmeros conjugados. TEN esta dise\u00f1ado para correr eficientemente en paralelo.<br> Las simulaciones son contrastadas con las mediciones experimentales realizadas en el Laboratorio de Microscopia \u00d3ptica Avanzada (LMOA) de la Universidad Nacional de R\u00edo Cuarto (UNRC). <br> Es desarrollado en por el LMOA, UNRC, Argentina. Es un proyecto open-source, distribuido gratuitamente bajo los t\u00e9rminos de la licencia MIT.",
+        "id": "ten",
+        "link": null,
+        "tags": [
+            "simulaciones"
+        ],
+        "sort_description": "Colecci\u00f3n de algoritmos para simular los procesos de transferencia de energ\u00eda"
+    },
+    {
+        "img": "imgs/products/uvml_small.jpeg",
+        "date": null,
+        "title": "Unsteady vortex lattice method (UVLM)",
+        "client": "Facultad de Ingenier\u00eda, UNRC",
+        "long_description": null,
+        "id": "uvlm",
+        "link": null,
+        "tags": [
+            "simulaciones"
+        ],
+        "sort_description": "Simulaci\u00f3n f\u00edsico-computacional de alas batientes"
+    }
+]
