@@ -16,34 +16,6 @@ function closePortfolioInfo(id) {
 }
 
 /* ==================================================================== */
-/*
-  Give the same height to the works divs
-*/
-function adjustHeight(){
-    var weDo = document.getElementById("weDo");
-    var divs = weDo.getElementsByClassName("box-def");
-
-    var maxHeight = 0
-
-    for (var div of divs) {
-	var style = window.getComputedStyle(div);
-	var containerHeight = parseFloat(style.height);
-
-	if (containerHeight > maxHeight){
-	    maxHeight = containerHeight;
-	}
-    }
-
-    for (var div of divs) {
-	div.style.height = maxHeight + "px";
-    }
-}
-
-document.addEventListener("DOMContentLoaded", adjustHeight);
-window.addEventListener("resize", adjustHeight);
-
-
-/* ==================================================================== */
 /* 
    Change active filter button 
 */
