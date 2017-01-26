@@ -18,7 +18,7 @@
   link_material: https://pewen.github.io/wpc/clases/
   tags: Diseño Web, cursos
   sort_description: Taller y sitio web del curso de python científico.
-  long_description: <h5>Sitio web</h5> Se trabajo en una interfaz simple y liviana donde los asistentes al taller puedan encontrar el temario, el material necesario para el mismo, como descargarlo, instalarlo y donde inscribirse.</br><h5>Taller</h5>Desde el punto del curso, se ideo un programa que cubre desde la nociones básicas de programación en python, hasta algunas nociones básicas de programación orientada a objetos, optimizaciones con Numpy, manejo de datos con Pandas, ploteos con Matplotlib entre otros temas. El curso se dicto de forma intensiva durante una semana, con 7 horas diarias divididas entre teoría y práctica. Ademas, los últimos dos días fueron dedicados a trabajar en proyectos que fueron presentados por los distintos grupos.
+  long_description: </p><h5>Sitio web</h5> <p>Se trabajo en una interfaz simple y liviana donde los asistentes al taller puedan encontrar el temario, el material necesario para el mismo, como descargarlo, instalarlo y donde inscribirse.</p><br><h5>Taller</h5><p>Desde el punto del curso, se ideo un programa que cubre desde la nociones básicas de programación en python, hasta algunas nociones básicas de programación orientada a objetos, optimizaciones con Numpy, manejo de datos con Pandas, ploteos con Matplotlib entre otros temas. El curso se dicto de forma intensiva durante una semana, con 7 horas diarias divididas entre teoría y práctica. Ademas, los últimos dos días fueron dedicados a trabajar en proyectos que fueron presentados por los distintos grupos.
 
 - title: Tantanakuy Encuentro Artístico Popular
   id: tantanakuy
